@@ -10,8 +10,10 @@ read -p "what is you father name:"
 echo -e "\e[33m alright \e[0m"
 
 read -p "where do you live:"  place
-echo "oh! do you live in $place"
-echo "great and thank you"
+
+echo -e "\[37m oh! do you live in $place \e[0m"
+
+echo -e "\[37m great and thank you \e[0m"
 
 
 echo -e "\e[33m DevOps has a very great future \e[0m"

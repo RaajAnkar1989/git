@@ -1,7 +1,13 @@
 !# binbash
 
-echo "this is my first project"
+#echo "this is my first project"
 
-echo "let me check whether it is working"
+echo "my name is Raj"
+
+echo "I am practicing Bash scripting"
+
+echo "is it fine to start with" | echo "I think it is fine"
+
+
 
 

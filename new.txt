@@ -3,15 +3,15 @@
 
 #echo "this is my first project"
 
-read -p "Enter your name:"  name 
-echo "Entered name is $name"
+read -p "what is your name:"  name
+echo -e "\e[33m thank you $name \e[0m"
 
-read -p "what is your name"  name
-echo "thank you $name"
+read -p "what is you father name:"
+echo -e "\e[33m alright \e[0m"
 
-read -p "what is you father name"
-echo "alright"
-
-read -p "where do you live"  place
+read -p "where do you live:"  place
 echo "oh! do you live in $place"
 echo "great and thank you"
+
+
+echo -e "\e[33m DevOps has a very great future \e[0m"

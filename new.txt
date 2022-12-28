@@ -3,25 +3,16 @@
 
 #echo "this is my first project"
 
-# writing a sample function
-
-sample () {
-    echo "my Devops career needs to start"
-    echo "I am working hard on it"
-    uptime
-}
-
-sample
-
-stat() {
-    echo "Load Average on the system from last 1 min is : $(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
-    echo "Number of users signed in is : $(who|wc -l)" 
-    echo "Stat Function is completed bye"
-} 
-
-# calling a function 
-stat 
-sleep 1
-stat 
-sleep 1
-stat
+case $ACTION in 
+    start)
+        echo "Starting XYZ Service" 
+        ;; 
+    stop)
+        echo "Stopping XYZ Service"
+        ;;
+    restart)
+        echo "Restarting XYZ Service"
+        ;;
+    *)
+        echo -e "\e[32m Valid options are start or stop or restart only \e[0m"
+esac

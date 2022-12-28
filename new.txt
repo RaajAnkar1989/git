@@ -18,3 +18,5 @@ LOGGEDIN_USERS=$(who | wc -l)
 
 echo "todays date is $DATE_COMMAND"
 echo "number of logged in users are $LOGGEDIN_USERS"
+ echo "I would like to meet you on $DATE_COMMAND and I am only $LOGGEDIN_USERS"
+ 

@@ -3,14 +3,10 @@
 
 #echo "this is my first project"
 
-read -p "what is your name:"  name
-echo -e "\e[33m thank you $name \e[0m"
+# writing a sample function
 
-read -p "what is you father name:"
-echo -e "\e[33m alright \e[0m"
-
-read -p "where do you live:"  place
-
-echo -e "\e[37m oh! do you live in $place \e[0m"
-
-echo -e "\e[37m great and thank you \e[0m"
+sample () {
+    echo "my Devops career needs to start"
+    echo "I am working hard on it"
+ 
+}

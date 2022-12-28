@@ -1,0 +1,7 @@
+!# binbash
+
+echo "this is my first project"
+
+echo "let me check whether it is working"
+
+

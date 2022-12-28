@@ -24,7 +24,6 @@ comment
 
 ACTION=$1 
 
-Demo On If Else 
 if [ "$ACTION" = "start" ] ; then 
      echo "Selected choice is start"
 

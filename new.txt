@@ -3,7 +3,7 @@
 
 echo "this is my first project"
 
-  >> comment
+  <<comment
 ACTION=$2
 
 case $ACTION in 

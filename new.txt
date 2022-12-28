@@ -10,3 +10,5 @@ sample () {
     echo "I am working hard on it"
  
 }
+
+sample

@@ -22,11 +22,18 @@ esac
 
 comment
 
-ACTION=$1 
-
 if [ "$ACTION" = "start" ] ; then 
-     echo "Selected choice is start"
+     echo "Starting XYZ Service"
+     uptime 
 
- else 
-     echo "Only valid option is start"
+     elif [ "$ACTION" = "stop" ] ; then 
+         echo "Stopping XYZ Service" 
+         exit 1 
+
+     elif [ "$ACTION" = "restart" ] ; then 
+         echo "Restarting XYZ Service" 
+         exit 2
+     else 
+         echo -e "Valid options are \e[31m start or stop or restart only \e[0m" 
+         exit 3
  fi 

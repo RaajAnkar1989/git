@@ -3,6 +3,8 @@
 
 #echo "this is my first project"
 
+ACTION=$1
+
 case $ACTION in 
     start)
         echo "Starting XYZ Service" 
@@ -13,5 +15,6 @@ case $ACTION in
     restart)
         echo "Restarting XYZ Service"
         ;;
-
+    *)
+        echo -e "\e[32m Valid options are start or stop or restart only \e[0m"
 esac

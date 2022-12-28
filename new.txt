@@ -8,7 +8,8 @@
 sample () {
     echo "my Devops career needs to start"
     echo "I am working hard on it"
- 
+    uptime
 }
 
 sample
+

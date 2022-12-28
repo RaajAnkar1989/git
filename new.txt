@@ -16,6 +16,7 @@ echo "todays date is"
 now="$(date)"
 
 DATE_COMMAND=$(date +%F)
+LOGGEDIN_USERS=$(who | wc -l)
 
 
 

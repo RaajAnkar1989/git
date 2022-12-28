@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "this is my first project"
+#echo "this is my first project"
 
   <<comment
 ACTION=$2
@@ -21,3 +21,13 @@ case $ACTION in
 esac
 
 comment
+
+ACTION=$1 
+
+Demo On If Else 
+if [ "$ACTION" = "start" ] ; then 
+     echo "Selected choice is start"
+
+ else 
+     echo "Only valid option is start"
+ fi 

@@ -16,7 +16,5 @@ echo "todays date is"
 DATE_COMMAND=$(date +%F)
 LOGGEDIN_USERS=$(who | wc -l)
 
-echo "todays date is $(DATE_COMMAND)"
-echo "number of logged in users are $(LOGGEDIN_USERS)
-
-
+echo "todays date is $DATE_COMMAND"
+echo "number of logged in users are $LOGGEDIN_USERS"

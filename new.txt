@@ -13,7 +13,7 @@ echo "it is working fine now" && echo "no it is not"
 
 echo "todays date is"
 
-[me@linux ~]$ date '+Today is %A, %B %d, %Y.'
+now="$(date)"
 
 
 

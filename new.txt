@@ -13,6 +13,5 @@ case $ACTION in
     restart)
         echo "Restarting XYZ Service"
         ;;
-    *)
-        echo -e "\e[32m Valid options are start or stop or restart only \e[0m"
+
 esac

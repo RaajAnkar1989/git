@@ -16,6 +16,10 @@ a=10
 b=20 
 c=30
 
-echo $(a) + $(b) + $(c) =
+echo $(a)
+echo $b
+echo $c
+
+
 
 

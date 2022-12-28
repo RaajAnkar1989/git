@@ -11,12 +11,8 @@ echo "is it fine to start with" | echo "I think it is fine"
 
 echo "it is working fine now" && echo "no it is not"
 
+echo "date +%m-%d-%Y"
 
-a=10
-b=20 
-c=30
-
-echo {$a+$b=$c}
 
 
 

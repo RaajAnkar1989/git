@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
-#echo "this is my first project"
+echo "this is my first project"
 
+  >> comment
 ACTION=$2
 
 case $ACTION in 
@@ -18,3 +19,5 @@ case $ACTION in
     *)
         echo -e "\e[32m Valid options are start or stop or restart only \e[0m"
 esac
+
+comment

@@ -3,22 +3,5 @@
 
 #echo "this is my first project"
 
-echo "my name is Raj"
-
-echo "I am practicing Bash scripting"
-
-echo "is it fine to start with" | echo "I think it is fine"
-
-echo "it is working fine now" && echo "no it is not"
-
-echo "todays date is"
-
-DATE_COMMAND=$(date +%F)
-LOGGEDIN_USERS=$(who | wc -l)
-
-echo "todays date is $DATE_COMMAND"
-echo "number of logged in users are $LOGGEDIN_USERS"
- echo "I would like to meet you on $DATE_COMMAND and I am only $LOGGEDIN_USERS"
- 
- echo "print the variables in $*"
- 
+read -p "Enter your name:"  name 
+echo "Entered name is $name"
